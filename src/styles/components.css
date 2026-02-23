@@ -1,0 +1,11 @@
+@import '../components/Cart/Cart.css';
+@import '../components/ColorSelector/ColorSelector.css';
+@import '../components/Layout/Layout.css';
+@import '../components/MainBar/MainBar.css';
+@import '../components/MainButton/MainButton.css';
+@import '../components/PhoneItem/PhoneItem.css';
+@import '../components/PhoneList/PhoneList.css';
+@import '../components/PhoneSpecs/PhoneSpecs.css';
+@import '../components/Searcher/Searcher.css';
+@import '../components/SimilarItems/SimilarItems.css';
+@import '../components/Storage/Storage.css';

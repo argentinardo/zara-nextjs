@@ -1,0 +1,135 @@
+.phone-specs {
+    width: 75rem;
+    margin: auto;
+    margin-bottom: 9.625rem;
+}
+
+.phone-specs__hero {
+    height: 39.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 9.625rem;
+}
+
+.phone-specs__hero-img {
+    width: 31.875rem;
+    height: 28.6875rem;
+    object-fit: contain;
+}
+
+.phone-specs__hero-panel {
+    display: flex;
+    flex-direction: column;
+    width: 23.75rem;
+    height: 28.6875rem;
+}
+
+.phone-specs__hero-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: calc(29/24);
+    text-transform: uppercase;
+    margin-bottom: 0.6875rem;
+}
+
+.phone-specs__hero-subtitle {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: calc(24/20);
+    margin-bottom: var(--spacing-10);
+}
+
+.phone-specs__details {
+    margin-bottom: 9.625rem;
+}
+
+.phone-specs__details-title {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-08);
+    font-weight: 300;
+}
+
+.phone-specs__details-list {
+    border-top: solid 1px var(--color-black);
+}
+
+.phone-specs__details-list-item {
+    font-size: 0.75rem;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px var(--color-black);
+}
+
+.phone-specs__details-list-first {
+    min-width: 21.75rem;
+}
+
+@media (max-width: 1199px) {
+    .phone-specs {
+        width: 100%;
+    }
+
+    .phone-specs__hero {
+        height: 26rem;
+        margin-bottom: var(--spacing-12);
+    }
+
+    .phone-specs__hero-panel,
+    .phone-specs__hero-img {
+        height: 26rem;
+    }
+
+    .phone-specs__hero-title {
+        font-size: 1.25rem;
+    }
+
+    .phone-specs__hero-subtitle {
+        font-size: 0.875rem;
+    }
+
+    .phone-specs__details {
+        margin-bottom: var(--spacing-12);
+    }
+
+    .phone-specs__details-list-first {
+        min-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .phone-specs {
+        margin-bottom: var(--spacing-11);
+    }
+    .phone-specs__hero {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: var(--spacing-11);
+    }
+
+    .phone-specs__hero-title {
+        font-size: 1.25rem;
+    }
+
+    .phone-specs__hero-subtitle {
+        font-size: 0.875rem;
+        margin-bottom: var(--spacing-08);
+    }
+
+    .phone-specs__hero-img {
+        width: 100%;
+        max-height: 20rem;
+        margin-bottom: var(--spacing-06);
+    }
+
+    .phone-specs__hero-panel {
+        width: 100%;
+        height: auto;
+    }
+
+    .phone-specs__details-list-first {
+        min-width: 40%;
+    }
+}

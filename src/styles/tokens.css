@@ -1,0 +1,60 @@
+:root {
+    /* FONTS */
+    --font-main-family: Helvetica, Arial, sans-serif;
+    --font-main-size: 0.9375rem;
+
+    /* COLORS */
+    --color-black: #000;
+    --color-white: #FFF;
+    --color-main-900: var(--color-black);
+    --color-main-600: #79736D;
+    --color-main-300: #AAA;
+    --color-disabled: #C2BFBC;
+    --color-unselected: #CCCC;
+    --color-delete: #DF0000;
+    --color-background: var(--color-white);
+
+    /* SPACING */
+    --spacing-01: 0.25rem;
+    /* 4px */
+    --spacing-02: 0.5rem;
+    /* 8px */
+    --spacing-03: 0.75rem;
+    /* 12px */
+    --spacing-04: 1rem;
+    /* 16px */
+    --spacing-05: 1.25rem;
+    /* 20px */
+    --spacing-06: 1.5rem;
+    /* 24px */
+    --spacing-07: 2rem;
+    /* 32px */
+    --spacing-08: 2.5rem;
+    /* 40px */
+    --spacing-09: 3rem;
+    /* 48px */
+    --spacing-10: 4rem;
+    /* 64px */
+    --spacing-11: 5rem;
+    /* 80px */
+    --spacing-12: 5.5rem;
+    /* 88px */
+    --spacing-13: 6rem;
+    /* 96px */
+
+    /* GRID */
+    --grid-columns: 5;
+    --grid-gap: var(--spacing-04);
+}
+
+@media (max-width: 1199px) {
+    :root {
+        --grid-columns: 2;
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        --grid-columns: 1;
+    }
+}

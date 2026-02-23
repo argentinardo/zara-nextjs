@@ -1,0 +1,42 @@
+.main-button {
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-main-900);
+    color: var(--color-background);
+    border: none;
+    padding: .3125rem .4375rem;
+    text-transform: uppercase;
+    min-width: 7.25rem;
+    cursor: pointer;
+    text-decoration: none;
+    width: 16.25rem;
+    &.main-button--full {
+        width: 100%;
+    }
+    
+    &.main-button--light {
+        color: var(--color-main-900);
+        background-color: var(--color-background);
+        border: var(--color-main-900) solid 1px;
+    }
+    &:disabled {
+        border: none;
+        color: var(--color-disabled);
+        background-color:transparent;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main-button {
+        font-size: 0.75rem;
+        height: 3rem;                
+    }
+}
+@media (max-width: 767px) {
+    .main-button {
+        width: 100%;             
+    }
+}
+

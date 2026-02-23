@@ -1,0 +1,25 @@
+body {
+    background-color: var(--color-background);
+    color: var(--color-main-900);
+    font-family: var(--font-main-family);
+    font-size: var(--font-main-size);
+    max-width: 113.75rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    margin: auto;
+    font-weight: 300;
+}
+
+@media (max-width: 1199px) {
+    body {
+        padding-left: var(--spacing-08);
+        padding-right: var(--spacing-08);
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        padding-left: var(--spacing-04);
+        padding-right: var(--spacing-04);
+    }
+}
